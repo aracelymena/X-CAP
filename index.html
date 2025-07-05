@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>X-CAP | Cascos Inteligentes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --vino: #4b001a;
+      --negro: #111;
+      --gris: #2c2c2c;
+      --text-light: #f1f1f1;
+    }
+    body {
+      background-color: var(--negro);
+      color: var(--text-light);
+    }
+    .bg-vino {
+      background-color: var(--vino) !important;
+    }
+    .btn-vino {
+      background-color: var(--vino);
+      color: white;
+      border: none;
+    }
+    .btn-vino:hover {
+      background-color: #6b002c;
+    }
+    .section-title {
+      border-bottom: 2px solid var(--vino);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .reseña {
+      background-color: var(--gris);
+      padding: 1rem;
+      border-left: 4px solid var(--vino);
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-vino navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">X-CAP</a>
+    </div>
+  </nav>
+  <div class="container-fluid p-0">
+  <img src="./img/promocion.jpg" 
+       alt="Banner Promocional X-CAP"
+       class="img-fluid w-100" style="max-height: 550px; object-fit: cover;">
+  </div>
+  <section class="container py-5">
+    <h2 class="section-title">¿Quiénes somos?</h2>
+    <p>X-cap es una marca peruana comprometida con la seguridad, tecnología y comodidad del motociclista. Creamos cascos inteligentes con airbag, pantalla, asistente de voz y diseño personalizado.</p>
+  </section>
+  <section class="container py-5">
+    <h2 class="section-title">Nuestra Misión</h2>
+    <p>Desarrollar cascos inteligentes de alta seguridad, integrando tecnología y diseño personalizado para proteger y mejorar la experiencia del motociclista peruano.</p>
+  </section>
+  <section class="container py-5">
+    <h2 class="section-title">Nuestra Visión</h2>
+    <p>Ser la marca líder en innovación de cascos inteligentes en Latinoamérica, revolucionando la seguridad vial con tecnología de vanguardia.</p>
+  </section>
+
+<section class="container py-5">
+  <h2 class="section-title">Galería de Productos</h2>
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card bg-dark text-light h-100">
+        <div id="carouselProducto1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/producto 1.1.jpg" class="d-block w-100" alt="Vista 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/producto 1.2.jpg" class="d-block w-100" alt="Vista 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducto1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselProducto1" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">CASCO SH-502 SP LUKE NEGRO</h5>
+          <p>Color: Negro<br>Tallas: S, M, L, XL<br>Precio: 1500 isilcoin</p>
+          <button class="btn btn-vino w-100">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card bg-dark text-light h-100">
+        <div id="carouselProducto2" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/producto 2.1.jpg" class="d-block w-100" alt="Vista 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/producto 2.2.jpg" class="d-block w-100" alt="Vista 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducto2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselProducto2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">CASCO ABATIBLE FG-7</h5>
+          <p>Color: Negro<br>Tallas: S, M, L, XL<br>Precio: 1200 isilcoin</p>
+          <button class="btn btn-vino w-100">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card bg-dark text-light h-100">
+        <div id="carouselProducto3" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/producto 3.1.jpg" class="d-block w-100" alt="Vista 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/producto 3.2.jpg" class="d-block w-100" alt="Vista 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselProducto3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselProducto3" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">CASCO HRO-3400DV DESTROY</h5>
+          <p>Colores: Negro, Morado, Rojo, Azul<br>Tallas: S, M, L, XL<br>Precio: 1600 isilcoin</p>
+          <button class="btn btn-vino w-100">Agregar al carrito</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="container py-5">
+  <h2 class="section-title">Reseñas de Clientes</h2>
+
+  <div id="reseñasCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="reseña">
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+              <p><strong>Carlos Gonzales – Lima</strong><br>
+                “El sistema de aire acondicionado interno es lo mejor. ¡Recomendado al 100%!”</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reseña">
+              <p>⭐️⭐️⭐️⭐️</p>
+              <p><strong>Lucía Fernández – Arequipa</strong><br>
+                “Diseño personalizado, ligero y puedo contestar llamadas desde el casco.”</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="reseña">
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+              <p><strong>Andrés Villanueva – Trujillo</strong><br>
+                “Pantalla inteligente y seguridad en uno solo. ¡Increíble!”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="reseña">
+              <p>⭐️⭐️⭐️⭐️⭐️</p>
+              <p><strong>Jean Paul Rivas – Piura</strong><br>
+                “El airbag me salvó en un accidente. No tiene comparación.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="container py-5">
+  <div class="bg-dark p-5 rounded-4 shadow-lg border border-vino">
+    <h2 class="section-title text-center mb-4">Proyecto Social: “ReConecta”</h2>
+    <p class="fs-5 text-light">
+      En el <strong>Cercado de Lima</strong>, uno de los distritos más antiguos y transitados del país, existe un problema creciente de <span class="text-warning">contaminación visual</span> y riesgo eléctrico por la acumulación de cables en desuso. 
+    </p>
+    <p class="fs-5 text-light">El proyecto <strong class="text-info">“ReConecta”</strong> se propone intervenir de forma <em>sostenible y educativa</em> para mejorar la seguridad urbana:</p>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+      <div class="col">
+        <div class="d-flex align-items-start bg-black rounded-3 p-3 h-100 border-start border-vino border-4">
+          <i class="bi bi-trash text-danger fs-4 me-3"></i>
+          <div>
+            <h6 class="text-light mb-1">Eliminación de cableado aéreo</h6>
+            <small class="text-secondary">Desmontaje técnico de cables antiguos en desuso.</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-start bg-black rounded-3 p-3 h-100 border-start border-vino border-4">
+          <i class="bi bi-box-seam text-warning fs-4 me-3"></i>
+          <div>
+            <h6 class="text-light mb-1">Cajas de contención</h6>
+            <small class="text-secondary">Diseño e instalación para organización del cableado restante.</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-start bg-black rounded-3 p-3 h-100 border-start border-vino border-4">
+          <i class="bi bi-megaphone text-info fs-4 me-3"></i>
+          <div>
+            <h6 class="text-light mb-1">Campañas de concientización</h6>
+            <small class="text-secondary">Charlas y talleres sobre reciclaje y estética urbana.</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex align-items-start bg-black rounded-3 p-3 h-100 border-start border-vino border-4">
+          <i class="bi bi-recycle text-success fs-4 me-3"></i>
+          <div>
+            <h6 class="text-light mb-1">Reutilización de materiales</h6>
+            <small class="text-secondary">Reciclaje de cobre para proyectos educativos y sostenibles.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 text-center">
+      <p class="text-light fs-5">
+        <i class="bi bi-cash-coin text-success me-2"></i>
+        <strong>Monto invertido:</strong> 1,400 isilcoin
+      </p>
+    </div>
+  </div>
+</section>
+
+  <section class="container py-5">
+        <h2 class="section-title">Contacto</h2>
+        <p><strong>Dirección:</strong> Av. Innovación 1234, Torre 2 – Piso 3, Miraflores</p>
+        <p><strong>Teléfono:</strong> (01) 456-7899</p>
+        <p><strong>WhatsApp:</strong> 987654321</p>
+        <p><strong>Atención:</strong> Lunes a sábado, de 7:00 a.m. a 10:00 p.m.</p>
+        <p><strong>Redes sociales:</strong><br>
+            Instagram: <a href="#" class="link-light">@xcap_peru</a><br>
+            TikTok: <a href="#" class="link-light">@xcapsmart_</a><br>
+            Facebook: <a href="#" class="link-light">XcapOficial</a>
+        </p>
+        <p><strong>Email:</strong> <a href="mailto:seguridadxcapperu@gmail.com" class="link-light">seguridadxcapperu@gmail.com</a></p>
+    </section>
+  <footer class="bg-vino text-light">
+    <p>© 2025 X-CAP | Proyecto educativo</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
